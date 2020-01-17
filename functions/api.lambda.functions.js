@@ -1,5 +1,5 @@
 'use strict'
-const data = require('../knexfile')
+const data = require('../database/food.json')
 function updateDatabase(data){
     const newValue = updateDatabase(res.body);
     return newValue
