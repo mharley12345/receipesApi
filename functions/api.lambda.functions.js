@@ -14,9 +14,9 @@ exports.handler = function ( event, context , callback){
           body: newValue
         });
       } else {
-        callback(null, {
+        callback(null,error, {
           statusCode: 400,
-          body: {}
+          body: error
         });
       }
     }
