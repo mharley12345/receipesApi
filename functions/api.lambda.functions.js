@@ -17,7 +17,7 @@ exports.handler = function ( event, context , callback){
         callback(null, {
           statusCode: 400,
 
-          body:{"Sorry"}
+          body:"No Message"
         });
       }
     }
