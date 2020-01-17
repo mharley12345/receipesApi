@@ -16,7 +16,7 @@ exports.handler = function ( event, context , callback){
       } else {
         callback(null,error, {
           statusCode: 400,
-          body: error
+          body: {message:'Not Found'}
         });
       }
     }
