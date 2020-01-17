@@ -1,4 +1,5 @@
 'use strict'
+module.exports = () =>{
 const data = require('../database/food.json')
 function updateDatabase(data){
     const newValue = updateDatabase(res.body);
@@ -21,3 +22,4 @@ exports.handler = function ( event, context , callback){
         });
       }
     }
+}
