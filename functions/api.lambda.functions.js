@@ -6,7 +6,7 @@ function updateDatabase(data){
 }
 
 exports.handler = function ( event, context , callback){
-    if(event.httpMethod === 'POST' && event.path === '/my/path') {
+    if(event.httpMethod === 'POST' && event.path === '/database/food') {
         const requestBody = JSON.parse(event.body);
         const newValue = updateDatabase(requestBody);
         callback(null, {
