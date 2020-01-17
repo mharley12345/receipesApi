@@ -1,4 +1,6 @@
 require('dotenv').config()
-const server = require('./api/server')
+const app = require('./api/lambda')
 const port = process.env.PORT
+
+
 

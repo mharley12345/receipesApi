@@ -1,6 +1,7 @@
 'use strict'
 const data = require('../knexfile')
 function updateDatabase(data){
+    const newValue = updateDatabase(res.body);
     return newValue
 }
 
